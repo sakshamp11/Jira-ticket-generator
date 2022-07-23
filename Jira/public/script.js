@@ -1,6 +1,7 @@
 const main = document.querySelector(".main");
 const addBtn = document.querySelector(".add");
-
+let isLocked = false;
+let isDelete = false;
 // 1. when + is clicked then a ticket will created
 addBtn.addEventListener("click", function () {
     // create a ticket
